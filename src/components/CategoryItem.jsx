@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
+
+
 const CategoryItem = ({item}) => {
     
   return (
@@ -19,14 +22,14 @@ export default CategoryItem
 
 const Container = styled.div`
 
-margin:3px;
+margin:3px 10px;
 
 box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.55);
-border-radius: 50px;
+border-radius: 20px;
 flex: 1;
 height: 60vh;
 position: relative;
-background-color: #c8acfc;
+background-color: #f5f4fa;
 `
 const Info = styled.div`
 height: 100%;
@@ -42,7 +45,7 @@ position: absolute;`
 
 const Title = styled.h2`
 
-color: black;
+color: #211067;
 font-size: 1.5em;
 padding:1.5em;`
 
