@@ -1,5 +1,5 @@
 # Westore
-An ecommerce website
+
 
 Web app made using react
 Styled components used for css
